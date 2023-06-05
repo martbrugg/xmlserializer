@@ -8,10 +8,11 @@ using System.Xml.Serialization;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace RSSReader
+namespace RSSReaderLib
 {
     public class RssReader
     {
+        public RssFeed Feed { get; private set; }
         public void ReadRSS(string url)
         {
             try
@@ -24,7 +25,7 @@ namespace RSSReader
                 }
 
                 // Create an XML reader
-                parseXMLSimple(xmlString);
+                this.Feed = parseXMLSimple(xmlString);
                 
             }
             catch (Exception ex)
@@ -90,6 +91,8 @@ namespace RSSReader
                     Console.WriteLine($"  PubDate: {itemPubDate}");
                 }
             }
+
+            return feed;
         }
     }
 }

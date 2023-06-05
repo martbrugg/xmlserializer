@@ -5,6 +5,10 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSReader", "RSSReader\RSSReader.csproj", "{D002AE26-61A2-4037-9073-C6226D08F6EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSReaderApp", "RSSReaderApp\RSSReaderApp.csproj", "{9BC94BF8-A249-4AF5-9F64-E283BC86B943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSReaderLib", "RSSReaderLib\RSSReaderLib.csproj", "{96ED649D-6F43-4611-AFE7-C9C9C5D696E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{D002AE26-61A2-4037-9073-C6226D08F6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D002AE26-61A2-4037-9073-C6226D08F6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D002AE26-61A2-4037-9073-C6226D08F6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC94BF8-A249-4AF5-9F64-E283BC86B943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC94BF8-A249-4AF5-9F64-E283BC86B943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC94BF8-A249-4AF5-9F64-E283BC86B943}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9BC94BF8-A249-4AF5-9F64-E283BC86B943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC94BF8-A249-4AF5-9F64-E283BC86B943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC94BF8-A249-4AF5-9F64-E283BC86B943}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{96ED649D-6F43-4611-AFE7-C9C9C5D696E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96ED649D-6F43-4611-AFE7-C9C9C5D696E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96ED649D-6F43-4611-AFE7-C9C9C5D696E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96ED649D-6F43-4611-AFE7-C9C9C5D696E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

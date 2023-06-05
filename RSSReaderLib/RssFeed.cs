@@ -5,10 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace RSSReader
+namespace RSSReaderLib
 {
     // Classes for deserialization
-    [XmlRoot("rss")]
     public class RssFeed
     {
         public RssChannel Channel { get; set; }
