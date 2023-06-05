@@ -33,14 +33,12 @@ namespace RSSReaderApp
 
         private void LoadFeed()
         {
-            this.btnLoadText = "Feed wird geladen";
             string rssUrl = "https://www.derstandard.at/rss";
             var reader= new RssReader();
             reader.ReadRSS(this.RssUrl);
             this.Feed = reader.Feed;
             this.ChannelTitle = this.Feed.Channel.Title;
             this.Items = this.Feed.Channel.Items;
-            this.btnLoadText = "Laden";
         }
     }
 }
